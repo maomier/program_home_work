@@ -1,0 +1,13 @@
+C language code test
+Write a client/server sample
+Platform: Linux
+Programming Language: C
+Topic:
+Write a sample client/server project. The server is a socket server listening on port 5432, it serves as a 
+directory listing server which will list current directory content and send back to client. The client use 
+socket to connect to the server, it supports 4 commands below. User will enter command in client and 
+display result sent back from the server.
+• pwd: display server current directory under the session
+• ls: list files under current server directory. The display format will be:
+o <type> <filename> <date>
+• type: file or dir
